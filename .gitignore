@@ -175,3 +175,4 @@ cython_debug/
 
 # files_for_project folder
 files_for_project/
+merged_data/
