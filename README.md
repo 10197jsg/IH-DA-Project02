@@ -7,11 +7,8 @@ This project analyzes the impact of a redesigned digital interface for Vanguard�
 
 The analysis encompasses end-to-end data preparation, exploratory data analysis (EDA), KPI definition, hypothesis testing, experiment evaluation, and dashboard/storytelling development using Tableau.
 
----
-
 ## Repository Structure
-```
-vanguard-ab-test/
+🔹 vanguard-ab-test/
 🔹 data/               # Raw datasets
 🔹 notebooks/          # Jupyter notebooks for EDA, metrics, hypothesis testing
 🔹 scripts/            # Python scripts for reusable functions
@@ -20,26 +17,40 @@ vanguard-ab-test/
 🔹 README.md           # Project overview
 🔹 requirements.txt    # Project dependencies
 🔹 .gitignore          # Files/folders to be ignored by Git
-```
 
----
 
 ## Project Deliverables
-- **EDA and Data Cleaning**
-  - Merging client profile and web interaction datasets.
-  - Handling missing values, duplicates, and inconsistent formatting.
-- **Performance Metrics Definition**
-  - Key metrics such as Completion Rates, Error Rates, and Average Time per Step.
-- **Hypothesis Testing and Experiment Evaluation**
-  - Hypothesis testing to assess the significance of improved completion rates.
-  - Evaluation of experiment design, sample size sufficiency, and potential biases.
-- **Tableau Dashboards and Story Creation**
-  - Visual storytelling of the A/B test results.
-  - Dynamic filtering by demographics (age, gender).
-- **Final Project Presentation**
-  - Insights, recommendations, and a detailed evaluation of experiment outcomes.
+### EDA and Data Cleaning
+- Merged the **Client Profiles**, **Web Activity Logs (pt1 and pt2)**, and **Experiment Assignment** datasets using `client_id`.
+- Handled missing values, duplicates, and inconsistent formats (e.g., corrected date formats, cleaned demographic data).
+- Engineered new features such as tenure in months/years, number of steps completed, and completion flags.
 
----
+### Client Behavior Analysis
+- Analyzed client interactions across steps (Initial Page, Step 1, Step 2, Step 3, Confirmation Page).
+- Identified drop-off points and compared user journeys between Test and Control groups.
+
+### Performance Metrics Definition
+- Calculated KPIs including:
+  - **Completion Rate** (percentage reaching the final confirmation step)
+  - **Error Rate** (sessions with missing or inconsistent steps)
+  - **Average Time Per Step**
+  - **Number of Actions** performed
+
+### Hypothesis Testing and Experiment Evaluation
+- Conducted hypothesis testing to determine whether the Test group’s completion rate was statistically higher.
+- Carried out cost-effectiveness analysis considering operational costs versus completion improvements.
+- Evaluated experimental design (random assignment, sample size sufficiency, and data fairness).
+
+### Tableau Visualization and Dashboarding
+- Created a **Choropleth Map** to show client distribution by State.
+- Built a **Regression Plot** analyzing the relationship between Customer Lifetime Value and Income.
+- Created a **Boxplot** to visualize Total Claim Amount distribution by Vehicle Size.
+- Developed a **Dashboard** combining all key visualizations.
+- Designed a **Story** presenting the experiment results step-by-step.
+
+### Final Presentation
+- Compiled all insights, data challenges, experiment evaluations, and visual stories into a professional presentation.
+
 
 ## Tools Used
 - Python (Pandas, NumPy, SciPy, Statsmodels)
@@ -48,7 +59,6 @@ vanguard-ab-test/
 - Trello (Kanban Board for project management)
 - Git & GitHub for version control and collaboration
 
----
 
 ## Data Sources
 - **Client Profiles (df_final_demo.csv)**: Client ID, tenure, age, gender, account details.
@@ -58,13 +68,12 @@ vanguard-ab-test/
 Each record includes important metadata:
 - `client_id`, `variation`, `visitor_id`, `visit_id`, `process_step`, `date_time`, `clnt_tenure_yr`, `clnt_age`, `gendr`, `num_accts`, `bal`, `calls_6_mnth`, `logons_6_mnth`
 
----
 
 ## How to Run
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/vanguard-ab-test.git
-    cd vanguard-ab-test
+    git clone https://github.com/10197jsg/IH-DA-Project02.git
+    cd IH-DA-Project02
     ```
 2. Install dependencies:
     ```bash
@@ -73,7 +82,6 @@ Each record includes important metadata:
 3. Run the Jupyter notebooks inside `/notebooks/` for data processing and analysis.
 4. Open the Tableau workbook `vanguard-dashboard.twbx` in Tableau Public/Desktop to view dashboards and story.
 
----
 
 ## Links
 - **Trello Board**: [Trello Board Invitation](https://trello.com/invite/b/67f1218020a62270e1df760c/ATTIc3df754809889611cb5d2965820dc7e8777E2D52/house-baratheon-project-2)
@@ -81,16 +89,12 @@ Each record includes important metadata:
 - **Tableau Workbook**: [Tableau Workbook](https://dataptjan14th2025.slack.com/archives/C08LZ2PVCKE/p1745074682042689)
 - **Repository**: [GitHub Repository](https://github.com/10197jsg/IH-DA-Project02)
 
----
 
 ## Authors
-- Hilena Amare Tadesse
-- [Partner Name if applicable]
+- Housebaratheon Team
 
----
 
 ## Additional Notes
 - Bonus analyses performed include client navigation pattern analysis and post-hoc power analysis.
 - Streamlit was explored for future interactive visualizations.
 
----
