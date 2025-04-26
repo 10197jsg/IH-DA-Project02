@@ -67,8 +67,6 @@ The analysis encompasses end-to-end data preparation, exploratory data analysis 
 
 Each record includes important metadata:
 - `client_id`, `variation`, `visitor_id`, `visit_id`, `process_step`, `date_time`, `clnt_tenure_yr`, `clnt_age`, `gendr`, `num_accts`, `bal`, `calls_6_mnth`, `logons_6_mnth`
-
-
 ## How to Run
 1. Clone the repository:
     ```bash
