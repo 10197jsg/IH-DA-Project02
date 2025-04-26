@@ -78,8 +78,7 @@ Each record includes important metadata:
     pip install -r requirements.txt
     ```
 3. Run the Jupyter notebooks inside `/notebooks/` for data processing and analysis.
-4. Open the Tableau workbook `vanguard-dashboard.twbx` in Tableau Public/Desktop to view dashboards and story.
-
+4. Open the Tableau workbook `tableau_file.twbx` in Tableau Public/Desktop to view dashboards and story.
 
 ## Links
 - **Trello Board**: [Trello Board Invitation](https://trello.com/invite/b/67f1218020a62270e1df760c/ATTIc3df754809889611cb5d2965820dc7e8777E2D52/house-baratheon-project-2)
