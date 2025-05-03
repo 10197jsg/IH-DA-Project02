@@ -83,7 +83,7 @@ Each record includes important metadata:
 ## Links
 - **Trello Board**: [Trello Board Invitation](https://trello.com/invite/b/67f1218020a62270e1df760c/ATTIc3df754809889611cb5d2965820dc7e8777E2D52/house-baratheon-project-2)
 - **Project Presentation**: [https://prezi.com/p/edit/wtzwcmra1tlx/]
-- **Tableau Workbook**: [Tableau Workbook]([https://dataptjan14th2025.slack.com/archives/C08LZ2PVCKE/p1745074682042689](https://public.tableau.com/views/baratheon_tableau_file/ABTesting?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+- **Tableau Workbook**: [Tableau Workbook](https://public.tableau.com/views/baratheon_tableau_file/ABTesting?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 - **Repository**: [GitHub Repository](https://github.com/10197jsg/IH-DA-Project02)
 
 
