@@ -1,23 +1,6 @@
-# IH-DA-Project02
+# Vanguard A/B Test Project (IH-DA-Project02)
 
-# Vanguard A/B Test Project
-
-## Overview
-This project analyzes the impact of a redesigned digital interface for Vanguard’s clients through a controlled A/B test. The goal was to determine if a more modern and intuitive digital design, with contextual prompts, led to improved client completion rates in an online process compared to the traditional user interface.
-
-The analysis encompasses end-to-end data preparation, exploratory data analysis (EDA), KPI definition, hypothesis testing, experiment evaluation, and dashboard/storytelling development using Tableau.
-
-## Repository Structure
-🔹 vanguard-ab-test/
-🔹 data/               # Raw datasets
-🔹 notebooks/          # Jupyter notebooks for EDA, metrics, hypothesis testing
-🔹 scripts/            # Python scripts for reusable functions
-🔹 tableau/            # Packaged Tableau workbook (.twbx)
-🔹 slides/             # Final project presentation
-🔹 README.md           # Project overview
-🔹 requirements.txt    # Project dependencies
-🔹 .gitignore          # Files/folders to be ignored by Git
-
+This project analyses the impact of a redesigned digital interface for Vanguard’s clients through a controlled A/B test. The goal was to determine if a more modern and intuitive digital design, with contextual prompts, led to improved client completion rates in an online process compared to the traditional user interface. The analysis encompasses end-to-end data preparation, exploratory data analysis (EDA), KPI definition, hypothesis testing, experiment evaluation, and dashboard/storytelling development using Tableau. The results seemed to conclude that the original interface had more positive feedback.
 
 ## Project Deliverables
 ### EDA and Data Cleaning
@@ -97,4 +80,3 @@ Each record includes important metadata:
 ## Additional Notes
 - Bonus analyses performed include client navigation pattern analysis and post-hoc power analysis.
 - Streamlit was explored for future interactive visualizations.
-
